@@ -103,7 +103,7 @@ def main(goodsKeyword):
             ]
         }
     ]
-    
+    print("搜索关键词:", goodsKeyword)
     # 返回 result: json.dumps(data, ensure_ascii=False)
     return {
         "result": json.dumps(data, ensure_ascii=False)
